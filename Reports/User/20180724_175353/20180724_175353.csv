@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+User,Chrome 67.0.3396.99,,2018-07-24 17:53:54,2018-07-24 17:54:29,34.541s,FAILED
+,,,,,,
+Test Cases/Validate/Test 1,Chrome 67.0.3396.99,,2018-07-24 17:53:54,2018-07-24 17:54:07,12.400s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-07-24 17:53:55,2018-07-24 17:53:58,2.804s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-24 17:53:58,2018-07-24 17:54:03,5.680s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:54:03,2018-07-24 17:54:03,0.139s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 17:54:03,2018-07-24 17:54:03,0.104s,PASSED
+setEncryptedText,Chrome 67.0.3396.99,,2018-07-24 17:54:03,2018-07-24 17:54:04,0.280s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:54:04,2018-07-24 17:54:06,2.255s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:54:06,2018-07-24 17:54:07,0.642s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:54:07,2018-07-24 17:54:07,0.205s,FAILED
+,,,,,,
+Test Cases/Katalon Recorder/Test 11,Chrome 67.0.3396.99,,2018-07-24 17:54:07,2018-07-24 17:54:28,21.285s,ERROR
+openBrowser,Chrome 67.0.3396.99,,2018-07-24 17:54:07,2018-07-24 17:54:25,17.604s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 67.0.3396.99,,2018-07-24 17:54:25,2018-07-24 17:54:25,0.014s,PASSED
+"Statement - baseUrl = ""https://www.katalon.com/""",Chrome 67.0.3396.99,,2018-07-24 17:54:25,2018-07-24 17:54:25,0.000s,PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 67.0.3396.99,,2018-07-24 17:54:25,2018-07-24 17:54:25,0.100s,PASSED
+"Statement - selenium.open(""https://www.google.com/"")",Chrome 67.0.3396.99,,2018-07-24 17:54:25,2018-07-24 17:54:26,0.926s,PASSED
+"Statement - selenium.type(""id=lst-ib"", ""automation testing"")",Chrome 67.0.3396.99,,2018-07-24 17:54:26,2018-07-24 17:54:26,0.099s,PASSED
+Statement - selenium.close(),Chrome 67.0.3396.99,,2018-07-24 17:54:26,2018-07-24 17:54:28,2.321s,PASSED
+"Statement - selenium.sendKeys(""id=lst-ib"", $KEY_ENTER)",Chrome 67.0.3396.99,,2018-07-24 17:54:28,2018-07-24 17:54:28,0.016s,PASSED

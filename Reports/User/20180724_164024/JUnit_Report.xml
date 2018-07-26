@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User" time="44" tests="0" failures="1" errors="0">
+   <testsuite name="User" tests="0" failures="1" errors="0" time="44" timestamp="2018-07-24 16:40:26" hostname="slk - WSLK1FFTRFW-12.SLKSOFT.COM" id="Test Suites/User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-12.003\\Katalon Studio\\Demo 2\\Reports\\User\\20180724_164024"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-12.003\\Katalon Studio\\Demo 2\\Reports\\User\\20180724_164024\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\slk.WSLK1FFTRFW-12.003\\Katalon Studio\\Demo 2\\Reports\\User\\20180724_164024\\1532430670085.png"/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-12.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e88f6bd24d306bbc1620c3c55ab35afa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Validate/Test 1" classname="Test Cases/Validate/Test 1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/User/Page_OrangeHRM/a_venki ssss' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User/Page_OrangeHRM/a_venki ssss' located by 'By.xpath: //a[@href = '/index.php/pim/viewEmployee/empNumber/9' and (text() = 'venki ssss' or . = 'venki ssss')]' not found)"/>
+         <system-out><![CDATA[2018-07-24 16:40:26 - [TEST_CASE][FAILED] - Test Cases/Validate/Test 1: Test Cases/Validate/Test 1 FAILED because (of) Unable to click on object 'Object Repository/User/Page_OrangeHRM/a_venki ssss' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User/Page_OrangeHRM/a_venki ssss' located by 'By.xpath: //a[@href = '/index.php/pim/viewEmployee/empNumber/9' and (text() = 'venki ssss' or . = 'venki ssss')]' not found)
+
+2018-07-24 16:40:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 16:40:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 16:40:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 16:40:34 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 16:40:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 16:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 16:40:34 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/User/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 16:40:34 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/User/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 16:40:34 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/User/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 16:40:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 16:40:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 16:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 16:40:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 16:40:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 16:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 16:40:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/User/Page_OrangeHRM/a_venki ssss' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User/Page_OrangeHRM/a_venki ssss' located by 'By.xpath: //a[@href = '/index.php/pim/viewEmployee/empNumber/9' and (text() = 'venki ssss' or . = 'venki ssss')]' not found)
+
+2018-07-24 16:41:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/User/Page_OrangeHRM/a_venki ssss' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User/Page_OrangeHRM/a_venki ssss' located by 'By.xpath: //a[@href = '/index.php/pim/viewEmployee/empNumber/9' and (text() = 'venki ssss' or . = 'venki ssss')]' not found)
+[[ATTACHMENT|C:\\Users\\slk.WSLK1FFTRFW-12.003\\Katalon Studio\\Demo 2\\Reports\\User\\20180724_164024\\1532430670085.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-24 16:40:26 - [TEST_CASE][FAILED] - Test Cases/Validate/Test 1: Test Cases/Validate/Test 1 FAILED because (of) Unable to click on object 'Object Repository/User/Page_OrangeHRM/a_venki ssss' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User/Page_OrangeHRM/a_venki ssss' located by 'By.xpath: //a[@href = '/index.php/pim/viewEmployee/empNumber/9' and (text() = 'venki ssss' or . = 'venki ssss')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 16:40:26 - [TEST_SUITE][FAILED] - User: Test Cases/Validate/Test 1 FAILED because (of) Unable to click on object 'Object Repository/User/Page_OrangeHRM/a_venki ssss' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User/Page_OrangeHRM/a_venki ssss' located by 'By.xpath: //a[@href = '/index.php/pim/viewEmployee/empNumber/9' and (text() = 'venki ssss' or . = 'venki ssss')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-24 16:40:26 - [TEST_SUITE][FAILED] - User: Test Cases/Validate/Test 1 FAILED because (of) Unable to click on object 'Object Repository/User/Page_OrangeHRM/a_venki ssss' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User/Page_OrangeHRM/a_venki ssss' located by 'By.xpath: //a[@href = '/index.php/pim/viewEmployee/empNumber/9' and (text() = 'venki ssss' or . = 'venki ssss')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+User,Chrome 67.0.3396.99,,2018-07-24 17:58:04,2018-07-24 17:58:35,30.591s,ERROR
+,,,,,,
+Test Cases/Validate/Test 1,Chrome 67.0.3396.99,,2018-07-24 17:58:04,2018-07-24 17:58:22,18.103s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-24 17:58:04,2018-07-24 17:58:07,2.701s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-24 17:58:07,2018-07-24 17:58:13,5.564s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:58:13,2018-07-24 17:58:13,0.106s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-24 17:58:13,2018-07-24 17:58:13,0.094s,PASSED
+setEncryptedText,Chrome 67.0.3396.99,,2018-07-24 17:58:13,2018-07-24 17:58:13,0.307s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:58:13,2018-07-24 17:58:15,2.205s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:58:15,2018-07-24 17:58:17,1.588s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:58:17,2018-07-24 17:58:18,0.567s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:58:18,2018-07-24 17:58:19,1.560s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:58:19,2018-07-24 17:58:19,0.117s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-24 17:58:19,2018-07-24 17:58:20,1.132s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-24 17:58:20,2018-07-24 17:58:22,1.252s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-24 17:58:22,2018-07-24 17:58:22,0.659s,PASSED
+,,,,,,
+Test Cases/Katalon Recorder/Test 11,Chrome 67.0.3396.99,,2018-07-24 17:58:22,2018-07-24 17:58:34,11.679s,ERROR
+openBrowser,Chrome 67.0.3396.99,,2018-07-24 17:58:23,2018-07-24 17:58:31,8.193s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 67.0.3396.99,,2018-07-24 17:58:31,2018-07-24 17:58:31,0.008s,PASSED
+"Statement - baseUrl = ""https://www.katalon.com/""",Chrome 67.0.3396.99,,2018-07-24 17:58:31,2018-07-24 17:58:31,0.000s,PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 67.0.3396.99,,2018-07-24 17:58:31,2018-07-24 17:58:31,0.065s,PASSED
+"Statement - selenium.open(""https://www.google.com/"")",Chrome 67.0.3396.99,,2018-07-24 17:58:31,2018-07-24 17:58:32,0.793s,PASSED
+"Statement - selenium.type(""id=lst-ib"", ""automation testing"")",Chrome 67.0.3396.99,,2018-07-24 17:58:32,2018-07-24 17:58:32,0.099s,PASSED
+Statement - selenium.close(),Chrome 67.0.3396.99,,2018-07-24 17:58:32,2018-07-24 17:58:34,2.307s,PASSED
+"Statement - selenium.sendKeys(""id=lst-ib"", $KEY_ENTER)",Chrome 67.0.3396.99,,2018-07-24 17:58:34,2018-07-24 17:58:34,0.012s,PASSED

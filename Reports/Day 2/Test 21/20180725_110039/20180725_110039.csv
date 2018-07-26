@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test 21,Chrome 67.0.3396.99,,2018-07-25 11:01:18,2018-07-25 11:01:25,6.657s,FAILED
+,,,,,,
+Test Cases/Day 2/Teat 21,Chrome 67.0.3396.99,,2018-07-25 11:01:19,2018-07-25 11:01:24,5.765s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-07-25 11:01:19,2018-07-25 11:01:22,2.909s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-25 11:01:22,2018-07-25 11:01:24,2.490s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-25 11:01:24,2018-07-25 11:01:24,0.087s,FAILED

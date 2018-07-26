@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test 3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5f64967-1fe1-48dd-9b35-558ade556709</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd01a9d5-39b3-4fb3-af73-48520d58382c</id>
+      <masked>false</masked>
+      <name>usname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>402f80d7-b61f-48f4-8374-3085478d61d0</id>
+      <masked>false</masked>
+      <name>pwd</name>
+   </variable>
+</TestCaseEntity>

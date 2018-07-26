@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test 22</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>629339a6-e7d0-47a3-9955-b9311f81c1a8</testCaseGuid>
+   <variable>
+      <defaultValue>'http://www.seleniumeasy.com/test/'</defaultValue>
+      <description></description>
+      <id>2bb2daa3-e314-4e55-99ed-96f552224c8b</id>
+      <masked>false</masked>
+      <name>Url</name>
+   </variable>
+</TestCaseEntity>
